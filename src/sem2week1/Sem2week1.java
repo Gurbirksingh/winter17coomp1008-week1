@@ -34,7 +34,7 @@ public class Sem2week1 {
          Card mySecondCard = new Card("ace","heart",14);
          System.out.printf("my card is : %s%n",mySecondCard);
          
-         DeckofCard theDeck = new DeckofCard();
+         DeckOfCards theDeck = new DeckOfCards();
          System.out.printf("our deck of card includeas : %n%s", theDeck.toString());
          
                  theDeck.shuffle();
