@@ -17,6 +17,8 @@ public class DeckofCard {
     
     public DeckofCard()
     {
+        deck= new ArrayList<>();
+        
         String[] suits = {"heart", "diamonds", "spades","clubs"};
         String [] faceName = {"two","three","four","five","six","seven","eight","nine","ten","eleven","tewleve","thirteen"
                                  ,"fourteen"};
